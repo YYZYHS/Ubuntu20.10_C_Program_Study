@@ -6,6 +6,36 @@
 # include <stdio.h>
 int main()
 {
-//wolaichangshichangshi 	//未完成
+	int max(int a, int b, int c);
+	int min(int a, int b, int c);
+	int a,b,c,MAX,MIN;
+	printf("please press three number:");
+	scanf("%d,%d,%d",&a,&b,&c);
+	MAX = max(a,b,c);
+	MIN = min(a,b,c);
+	printf("The max number is:%d\n",MAX);
+	printf("The min number is:%d\n",MIN);
 	return 0;
 } 
+
+int max(int a, int b, int c)
+{
+	int z;
+	z = a;
+	if(a < b)
+	z = b;
+	if(z < c)
+	z = c;
+	return(z);
+}
+
+int min(int a, int b, int c)
+{
+	int z;
+	z = a;
+	if(a > b)
+	z = b;
+	if(z > c)
+	z = c;
+	return(z);
+}
