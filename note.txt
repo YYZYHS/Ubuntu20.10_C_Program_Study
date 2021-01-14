@@ -14,3 +14,4 @@
 	sudo git config --global user.name ""
 	sudo git config --global user.password ""
 	git config --global credential.helper store
+	p
