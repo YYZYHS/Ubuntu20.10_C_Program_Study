@@ -1,0 +1,15 @@
+1.GitHub更新代码指令
+	sudo git status
+	sudo git add .
+	sudo git commit -m "更新说明"
+	sudo git pull
+	sudo git push origin master
+2.ignore格式
+	node_modules
+	target          //忽略这个target目录
+	angular.json    //忽略这个angular.json文件
+	log/*           //忽略log下的所有文件
+	css/*.css       //忽略css目录下的.css文件
+3.git账户密码设置
+	sudo git config --global user.name ""
+	sudo git config --global user.password ""
