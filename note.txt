@@ -13,3 +13,4 @@
 3.git账户密码设置
 	sudo git config --global user.name ""
 	sudo git config --global user.password ""
+	git config --global credential.helper store
