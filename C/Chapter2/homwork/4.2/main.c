@@ -49,6 +49,7 @@ int main()
 	}
 	printf("The max number is:a[%d] = %d\n",count_max,max);
 	printf("The max number is:a[%d] = %d\n",count_min,min);
+	return 0;
 }
 
 

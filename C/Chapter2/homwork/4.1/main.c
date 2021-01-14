@@ -21,4 +21,5 @@ int main()
 	a = b;
 	b = c;
 	printf("Later:\na=%d\nb=%d\n",a,b);
+	return 0;
 }
