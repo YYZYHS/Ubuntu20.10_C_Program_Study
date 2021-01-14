@@ -1,9 +1,12 @@
 1.GitHub更新代码指令
+	(本地到云端)
 	sudo git status
 	sudo git add .
 	sudo git commit -m "更新说明"
 	sudo git pull
 	sudo git push origin master
+	(云端到本地)
+	sudo git pull
 2.ignore格式
 	node_modules
 	target          //忽略这个target目录
