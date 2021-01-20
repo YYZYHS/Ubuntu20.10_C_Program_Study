@@ -2,8 +2,11 @@
   *代码作用：确定主机字节序程序 
 */
 #include <stdio.h>
+#include <arpa/inet.h>
 int main(int argc, char *argv[])
 {
+	int a = 0x01020304;
+	short int b = 0x0102;
 	union
 	{
 		short s;
@@ -20,6 +23,8 @@ int main(int argc, char *argv[])
 	{
 		printf("little-endian\n");
 	}
+	printf("htonl(%08x) = %08x\n",a,htonl(a));
+	printf("htonl(%04x) = %04x\n",b,htons(b)    );
 
 	return 0;
 }
